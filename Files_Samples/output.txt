@@ -1,0 +1,26 @@
+C#1 	I1-IF1    
+C#2 	I1-IF2    I2-IF1    
+C#3 	I1-ID     I2-IF2    I3-IF1    
+C#4 	I1-EX     I2-ID     I3-IF2    I4-IF1    
+C#5 	I1-MEM1   I2-Stall  I3-Stall  I4-Stall  
+C#6 	I1-MEM2   I2-Stall  I3-Stall  I4-Stall  
+C#7 	I1-MEM3   I2-EX     I3-ID     I4-IF2    I5-IF1    
+C#8 	I1-WB     I2-MEM1   I3-EX     I4-ID     I5-IF2    I6-IF1    
+C#9 	I2-MEM2   I3-MEM1   I4-EX     I5-ID     I6-IF2    I7-IF1    
+C#10 	I2-MEM3   I3-MEM2   I4-MEM1   I5-EX     I6-ID     I7-IF2    I8-IF1    
+C#11 	I2-WB     I3-MEM3   I4-MEM2   I5-MEM1   I6-EX     I7-ID     I8-IF2    
+C#12 	I3-WB     I4-MEM3   I5-MEM2   I6-MEM1   I7-EX     I8-ID     
+C#13 	I4-WB     I5-MEM3   I6-MEM2   I7-MEM1   I8-EX     
+C#14 	I5-WB     I6-MEM3   I7-MEM2   I8-MEM1   
+C#15 	I6-WB     I7-MEM3   I8-MEM2   
+C#16 	I7-WB     I8-MEM3   
+C#17 	I8-WB     
+REGISTERS
+R1 92
+R2 16
+R3 42
+R4 58
+R5 8
+MEMORY
+8 142
+16 60
